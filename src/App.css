@@ -1,0 +1,130 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  background-image: url("https://i.pinimg.com/originals/db/e6/b9/dbe6b90d0fd0d209001cb64eefd038d7.gif");
+  background-size: 10%;
+  /* background-color: #004080; */
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.home h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.home p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.main-section {
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #003366;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+/* All Players */
+.all-players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.player-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.player-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Player Details */
+.player-details {
+  text-align: center;
+}
+
+.player-details img {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.player-details p {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.player-details button {
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Add Player Form */
+.newplayerform {
+  display: flex;
+  flex-direction: column;
+}
+
+.newplayerform label {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.newplayerform input[type="text"],
+.newplayerform input[type="file"],
+.newplayerform button {
+  margin-top: 5px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.newplayerform button {
+  background-color: #009900;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Search Bar */
+.search-bar {
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-bar::placeholder {
+  color: #aaa;
+}
